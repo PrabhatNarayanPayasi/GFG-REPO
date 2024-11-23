@@ -10,7 +10,7 @@ using namespace std;
 class Solution {
   public:
     int getMinDiff(int k, vector<int> &arr) {
-          int n=arr.size();
+             int n=arr.size();
         sort(arr.begin(),arr.end());
         int mini=arr[0];
         int maxi=arr[n-1];
@@ -26,7 +26,6 @@ class Solution {
         
         return ans;   
     }
- 
 };
 
 //{ Driver Code Starts.
